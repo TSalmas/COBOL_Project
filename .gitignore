@@ -24,3 +24,6 @@ hello       # If you're compiling hello.cbl -> "hello" or "hello.exe"
 # 5. Optionally ignore editor/IDE settings (VS Code, JetBrains, etc.)
 .vscode/
 .idea/
+
+# 6. Ignore compiled programs
+askname
