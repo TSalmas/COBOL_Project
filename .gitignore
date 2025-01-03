@@ -27,3 +27,4 @@ hello       # If you're compiling hello.cbl -> "hello" or "hello.exe"
 
 # 6. Ignore compiled programs
 askname
+hello
