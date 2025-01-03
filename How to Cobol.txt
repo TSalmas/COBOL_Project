@@ -1,0 +1,4 @@
+How to compile and execute the .cbl file
+cobc -x name-file.cbl
+./name_file
+
