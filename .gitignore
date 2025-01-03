@@ -1,0 +1,26 @@
+# 1. Ignore compiled or intermediate artifacts
+*.exe
+*.dll
+*.o
+*.so
+*.lst
+*.cbl.lst
+*.obj
+*.mod
+
+# 2. macOS system files
+.DS_Store
+
+# 3. COBOL compiler output (GnuCOBOL usually produces these)
+hello       # If you're compiling hello.cbl -> "hello" or "hello.exe"
+*.acu       # If you're using ACUCOBOL
+*.idy       # Some compilers produce .idy files for debugging info
+*.idy.old
+
+# 4. Logs or temporary files
+*.log
+*.tmp
+
+# 5. Optionally ignore editor/IDE settings (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
